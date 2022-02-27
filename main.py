@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from todo_list import ToDoList
 
-app = FastAPI(version="0.0.0")
+app = FastAPI(version="0.1.0")
 
 
 @app.get("/", tags=["main"])
